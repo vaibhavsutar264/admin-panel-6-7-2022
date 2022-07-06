@@ -87,7 +87,7 @@ export default class MainCategory extends Component {
                                     </div>
                                     <div className="form-group mb-0">
                                         <label className="form-label">Slug*</label>
-                                        <input type="text" className="form-control" placeholder="grocery-staple" name="slug" value={this.state.slug} onChange={(e) => this.handleChange(e)} />
+                                        <input type="text" className="form-control" placeholder="haystack-product" name="slug" value={this.state.slug} onChange={(e) => this.handleChange(e)} />
                                     </div>
                                     <button className="save-btn hover-btn" type="submit" onClick={this.handleSubmit}>Add New</button>
                                 </div>

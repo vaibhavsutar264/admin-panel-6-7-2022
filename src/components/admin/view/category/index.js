@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
 import List from './list';
-import MainCategory from './create';
+// import List from './main-category';
+// import MainCategory from './create';
+import MainCategory from './main-category';
 import SubCategory from './create/sub-category';
 import SubChildCategory from './create/child-category';
 

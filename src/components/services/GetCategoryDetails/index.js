@@ -5,6 +5,7 @@ import { NotificationManager } from 'react-notifications';
 const createCategoryList = async (data) => {
     try {
         let result = await api.post(Apis.CreateCategoryList,data);
+        //this result is linked at localhost 4000 of backend data also u can check this local host on postman by above line api means Apiconfig.js file and this file is just a url as baseURL : API_URL, and rthis url is stated in config folder index.js file as API_URL as localhost:4000 so this port is linked with backed databases and in this folder their is list of Apis from which one Apis is createcategorylist
         if (result.data.error) {
             NotificationManager.error(result.data.error);
             return null;

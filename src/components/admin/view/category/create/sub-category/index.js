@@ -45,7 +45,7 @@ export default class SubCategory extends Component {
     handleSubmit = async event => {
         event.preventDefault();
         const { name, selectCategory } = this.state;
-        let data = { sub_name: name, categoryId: selectCategory };
+        let data = { sub_name: name, selectCategory: selectCategory };
         swal({
             title: "Are you sure?",
             text: "You want to Add New Location",

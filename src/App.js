@@ -16,8 +16,9 @@ export default class App extends Component {
 				<NotificationContainer />
 					<Switch>
 						<Route path='/auth' component={Auth} />
-						{getCookie('token') ? <Route path='/admin' component={rootRoutes} /> : <Redirect to={"/auth/login"} />}
-						{getCookie('token') ? <Redirect to={"/admin"} /> : <Redirect to={"/auth/login"} />}
+						<Route path='/admin' component={rootRoutes} />
+						{/* {getCookie('token') ? <Route path='/admin' component={rootRoutes} /> : <Redirect to={"/auth/login"} />} */}
+						{/* {getCookie('token') ? <Redirect to={"/admin"} /> : <Redirect to={"/auth/login"} />} */}
 						<Route component={NoMatch} />
 					</Switch>
 				</BrowserRouter>

@@ -87,7 +87,7 @@ export default class Sidebar extends Component {
                                 <div className="sb-nav-link-icon"><i className="fas fa-users" /></div>
                                 Payment
                             </a>
-                            {/* <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div className="sb-nav-link-icon"><i className="fas fa-newspaper" /></div>
                                 Posts
                                  <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down" /></div>
@@ -152,7 +152,7 @@ export default class Sidebar extends Component {
                             <a className="nav-link" href="reports.html">
                                 <div className="sb-nav-link-icon"><i className="fas fa-chart-bar" /></div>
                                 Reports
-        </a> */}
+        </a>
                         </div>
                     </div>
                 </nav>
